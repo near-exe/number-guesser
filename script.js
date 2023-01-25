@@ -75,10 +75,6 @@ function loss()
     NumberField.style.backgroundColor="#80231f";
     NumberField.style.color="white";
 }
-function done()
-{
-    msg.innerHTML="Gotta reset dud, already failed";
-}
 //If u know, u know
 function pucci()
 {
