@@ -1,4 +1,3 @@
-
 const msg = document.getElementById("Message");
 const ScoreT = document.getElementById("Score");
 const HighS = document.getElementById("HS");
@@ -66,6 +65,7 @@ function win()
     document.body.style.backgroundColor = "#1f802f";
     questionMark.innerHTML=random;
     NumberField.style.backgroundColor="#1f802f";
+    NumberField.style.color="white";
 }
 function loss()
 {
@@ -73,6 +73,7 @@ function loss()
     document.body.style.backgroundColor="#80231f";
     questionMark.innerHTML=random;
     NumberField.style.backgroundColor="#80231f";
+    NumberField.style.color="white";
 }
 function done()
 {
@@ -81,13 +82,14 @@ function done()
 //If u know, u know
 function pucci()
 {
-    random = Math.floor(Math.random()*21);
+    random = Math.floor(Math.random()*1001);
     Score=15;
     ScoreT.innerHTML=Score;
     document.body.style.backgroundColor = "#222";
     questionMark.innerHTML="?";
     msg.innerHTML="Start guessing dud";
-    NumberField.style.backgroundColor="#222";
+    NumberField.style.backgroundColor="white";
+    NumberField.style.color="#222";
     won=false;
 }
 
