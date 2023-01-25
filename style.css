@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+body
+{
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #222;
+    color: white;
+    overflow: hidden;
+}
+
+h1
+{
+    position: relative;
+    left: 255px;
+    padding-top: 100px;
+}
+.between
+{
+    position:relative;
+    left:1100px;
+    bottom: 125px; 
+}
+
+.question
+{
+    font-size: 100px;
+    position:absolute;
+    left:625px;
+    background-color: #eee;
+    color: #222;
+    min-width: 80px;
+    padding-left: 13px;
+    padding-top:10px;
+    
+}
+
+.Againbtn
+{
+    font-family: 'Press Start 2P', sans-serif;
+    position:relative;
+    bottom:175px;
+    padding: 25px;
+    cursor: pointer;
+}
+
+.Againbtn:hover
+{
+    background-color:#ccc;
+}
+
+.right
+{
+    position: relative;
+    left:1000px;
+}
+
+.sub:hover
+{
+    background-color:#ccc;
+}
+
+.sub
+{
+    font-family: 'Press Start 2P', sans-serif;
+    cursor: pointer;
+    background-color: white;
+}
+
+.number
+{
+    
+    font-family: 'Press Start 2P', sans-serif;
+    background-color: #222;
+    border: none;
+    color:white;
+    font-size: 18px;
+
+}
+.number:focus
+{
+    outline: none;
+}
+
+.XD
+{
+    font-size: 20px;
+}
